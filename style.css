@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    padding-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header p {
+    font-size: 14px;
+    color: black;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid ;
+    padding-bottom: 5px;
+}
+
+ul {
+    
+    padding-left: 10px;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+
+.conhecimentoTécnico {
+    display: flex;
+    margin-left: 4%;
+}
+
+.conhecimentoTécnico ul {
+    width: 45%;
+    
+}
+
